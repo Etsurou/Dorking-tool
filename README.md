@@ -3,6 +3,33 @@
 ## Descripción
 Esta herramienta de dorking permite realizar búsquedas avanzadas en varios motores de búsqueda utilizando dorks específicos. Es útil para encontrar información expuesta públicamente en la web.
 
+## Características
+
+- **Múltiples Motores de Búsqueda**: Soporte para Google, DuckDuckGo, Bing, Yandex y Startpage.
+- **Interfaz de Línea de Comandos**: Fácil de usar con argumentos para personalizar las búsquedas.
+- **Extracción de Enlaces**: Recopila enlaces relevantes según las consultas proporcionadas.
+- **Soporte para Proxies**: Opción para realizar búsquedas de manera anónima.
+- **Manejo de Errores**: Notificaciones claras sobre problemas de conexión o respuestas vacías.
+
+## Requisitos
+
+- Python 3.6 o superior
+- Paquetes de Python:
+  - `requests`
+  - `beautifulsoup4`
+  - `colorama`
+  
+Puedes instalar los paquetes requeridos con:
+
+```bash
+pip install requests beautifulsoup4 colorama
+```
+o ejecutando el requirement.txt
+
+```bash
+pip install -r requirement.txt
+```
+
 ## Instalación
 
 Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
