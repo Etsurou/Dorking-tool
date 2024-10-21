@@ -24,10 +24,10 @@ Puedes instalar los paquetes requeridos con:
 ```bash
 pip install requests beautifulsoup4 colorama
 ```
-o ejecutando el requirement.txt
+o con este comando:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ## Instalación
