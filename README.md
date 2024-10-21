@@ -23,22 +23,26 @@ Una herramienta avanzada de dorking para realizar búsquedas web utilizando dive
 1. Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
 2. Clona este repositorio:
 
-   ```bash
+
+```bash
    git clone https://github.com/Etsurou/Dorking-tool.git
 Navega a la carpeta del proyecto:
 
-bash
-Copiar código
+```bash
 cd Dorking-tool
 Instala las dependencias necesarias
 
+```bash
 pip install -r requirements.txt
 
 Uso
 Puedes utilizar la herramienta a través de la línea de comandos. Aquí hay un ejemplo de cómo ejecutarla:
 
+```bash
 python dorking_tool.py -d "tu_dork_aqui" -e Google -l 10 -o resultados.txt
+
 Ejemplo de uso:
+```bash
 python dorking_tool.py -q dorks.txt -e DuckDuckGo -l 20 -o resultados.txt
 Opciones de Comando
 -q, --query_file: Archivo que contiene las consultas de búsqueda (dorks).
