@@ -30,13 +30,13 @@ Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde [
 Puedes utilizar la herramienta a través de la línea de comandos. Aquí hay un ejemplo de cómo ejecutarla:
 
 ```bash
-python dorking_tool.py -d "tu_dork_aqui" -e Google -l 10 -o resultados.txt
+python Dorking_tool.py -d "tu_dork_aqui" -e Google -l 10 -o resultados.txt
 ```
 
 ### Ejemplo de uso:
 
 ```bash
-python dorking_tool.py -q dorks.txt -e DuckDuckGo -l 20 -o resultados.txt
+python Dorking_tool.py -q dorks.txt -e DuckDuckGo -l 20 -o resultados.txt
 ```
 
 ## Opciones de Comando
@@ -48,12 +48,8 @@ python dorking_tool.py -q dorks.txt -e DuckDuckGo -l 20 -o resultados.txt
 - `-o, --output`: Archivo de salida para guardar los resultados.
 - `-p, --proxy`: Uso de un proxy para búsquedas anónimas.
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar esta herramienta, siéntete libre de hacer un fork del repositorio y enviar un pull request.
-
 ## Licencia
 
 Este proyecto está licenciado bajo la MIT License.
 
-¡Usa esta herramienta de manera responsable! El dorking puede ser malinterpretado por algunas plataformas.
+¡Usa esta herramienta de manera responsable! El dorking puede ser malinterpretado por algunas plataformas, y tu ip puede ser baneada.
