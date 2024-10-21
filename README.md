@@ -32,8 +32,6 @@ pip install -r requirement.txt
 
 ## Instalación
 
-Asegúrate de tener Python 3 instalado en tu sistema. Puedes descargarlo desde [python.org](https://www.python.org/downloads/).
-
 1. Clona este repositorio:
 
    ```bash
